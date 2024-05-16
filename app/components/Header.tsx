@@ -165,7 +165,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
               <br />
               <br />
               <p className="text-[16px] px-2 pl-5 text-black dark:text-white">
-                Copyright © 2023 ELearning
+                Copyright © 2024 ELearning
               </p>
             </div>
           </div>

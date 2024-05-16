@@ -37,7 +37,7 @@ const Hero: FC<Props> = (props) => {
       <div className="absolute top-[100px] 1000px:top-[unset] 1500px:h-[700px] 1500px:w-[700px] 1100px:h-[600px] 1100px:w-[600px] h-[40vh] left-5 w-[40vh] hero_animation rounded-[50%] 1100px:left-8 1500px:left-14"></div>
       <div className="1000px:w-[40%] flex 1000px:min-h-screen items-center justify-end pt-[70px] 1000px:pt-[0] z-10">
         <Image
-          src={img1}
+          src={data?.layout?.banner?.image?.url || img1}
           width={400}
           height={400}
           alt=""
@@ -88,7 +88,7 @@ const Hero: FC<Props> = (props) => {
             alt=""
             className="rounded-full ml-[-20px]"
           />
-          <p className="font-Josefin dark:text-[#edfff4] text-[#000000b3] 1000px:pl-3 text-[18px] font-[600]">
+          {/* <p className="font-Josefin dark:text-[#edfff4] text-[#000000b3] 1000px:pl-3 text-[18px] font-[600]">
             500K+ People already trusted us.{" "}
             <Link
               href="/courses"
@@ -96,7 +96,7 @@ const Hero: FC<Props> = (props) => {
             >
               View Courses
             </Link>{" "}
-          </p>
+          </p> */}
         </div>
         <br />
       </div>
