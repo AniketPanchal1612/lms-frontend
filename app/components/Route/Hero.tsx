@@ -73,7 +73,7 @@ const Hero: FC<Props> = (props) => {
         <br />
         <br />
         <div className="1500px:w-[55%] 1100px:w-[78%] w-[90%] flex items-center">
-          <Image
+          {/* <Image
             src={require("../../../public/assets/client-1.jpg")}
             alt=""
             className="rounded-full"
@@ -87,7 +87,7 @@ const Hero: FC<Props> = (props) => {
             src={require("../../../public/assets/client-3.jpg")}
             alt=""
             className="rounded-full ml-[-20px]"
-          />
+          /> */}
           {/* <p className="font-Josefin dark:text-[#edfff4] text-[#000000b3] 1000px:pl-3 text-[18px] font-[600]">
             500K+ People already trusted us.{" "}
             <Link
