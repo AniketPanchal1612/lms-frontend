@@ -27,6 +27,7 @@ const About = () => {
               <li>Node.js</li>
               <li>Express.js</li>
               <li>MongoDB (for database management)</li>
+              <li>Redis (for cache management)</li>
               <li>WebSockets (for real-time communication)</li>
             </ul>
           </li>
